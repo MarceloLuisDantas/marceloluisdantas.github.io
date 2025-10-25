@@ -1,8 +1,6 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+Apenas um dromedário que gosta de desenvolvimento de sistemas e de falar sobre o assunto. Pretendo falar principalmente sobre C e Nim, mas outros tópicos não são proibidos.

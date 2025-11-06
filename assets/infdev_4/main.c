@@ -2,12 +2,11 @@
 #include <string.h>
 #include <stdlib.h>
 
-typedef struct Pessoa {
-    char *nome;
-    int idade;
-    char *(*toString)(struct Pessoa*);
-    void (*free)(struct Pessoa*);
-} Pessoa;
+typedef struct ListaInt {
+    int *array;
+    int len;    
+    int to
+} Listaint;
 
 char *toStringPessoa(Pessoa *p) {
     // +1 para o caracteres nulo \0 no final da string

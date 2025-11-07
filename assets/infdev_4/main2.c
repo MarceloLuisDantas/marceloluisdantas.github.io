@@ -1,11 +1,11 @@
-#include <stdint.h>
 #include <stdio.h>
-#include <stdlib.h>
 
-int main() {
-    int64_t v1 = 90;
-    long v2 = 192;
+int main()
+{
+    float y = 3.135223;
+    int x = (int)y;
+    printf("%d\n", x);
+    printf("%d\n", *(int *)&y);  // 3 em binario 00000000.00000000.00000000.00000011
 
-    printf("Tamanho de int64_t: %ld\n", sizeof(int64_t));
-    printf("Tamanho de long: %ld\n", sizeof(long));
+    return 0;
 }
